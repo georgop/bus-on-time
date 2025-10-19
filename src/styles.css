@@ -13,3 +13,9 @@ code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100% !important;
+  display: block !important;
+}

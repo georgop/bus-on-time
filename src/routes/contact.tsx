@@ -181,16 +181,16 @@ function ContactPage() {
             {/* Dates */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium mb-2 text-gray-400">
+                <label className="text-sm font-medium mb-2 text-gray-400 w-full">
                   Arrival Date *
                 </label>
-                <div className="relative">
+                <div className="relative w-full">
                   <DatePicker
                     selected={arrivalDate}
                     onChange={(date) => setArrivalDate(date)}
                     dateFormat="dd/MM/yyyy"
                     placeholderText="Select arrival date"
-                    className="w-full px-4 py-2 rounded-lg bg-slate-900/50 border border-slate-700 focus:border-cyan-500 outline-none text-white"
+                    className="w-[100%] px-4 py-2 rounded-lg bg-slate-900/50 border border-slate-700 focus:border-cyan-500 outline-none text-white"
                   />
                   <Calendar className="absolute right-3 top-2.5 w-5 h-5 text-cyan-400" />
                 </div>
