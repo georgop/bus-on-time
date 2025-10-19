@@ -11,19 +11,22 @@ const slides = [
   },
   {
     id: 2,
-    image: 'http://www.busontime.gr/images/arxiki2.jpg?1760834259559',
+    image:
+      'https://images.weserv.nl/?url=http://www.busontime.gr/images/arxiki2.jpg?1760834259559',
     title: 'Discover Hidden Gems',
     subtitle: 'Guided tours to your favorite landmarks.',
   },
   {
     id: 3,
-    image: 'http://www.busontime.gr/images/arxiki4.jpg?1760834263764',
+    image:
+      'https://images.weserv.nl/?url=http://www.busontime.gr/images/arxiki4.jpg?1760834263764',
     title: 'Your Journey, Our Promise',
     subtitle: 'Seamless travel experiences across the city.',
   },
   {
     id: 4,
-    image: 'http://www.busontime.gr/images/arxiki1.jpg?1760834259125',
+    image:
+      'https://images.weserv.nl/?url=http://www.busontime.gr/images/arxiki1.jpg?1760834259125',
     title: 'Adventure Awaits',
     subtitle: 'Join our special countryside tours this season.',
   },
