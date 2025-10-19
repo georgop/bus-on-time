@@ -1,7 +1,7 @@
 'use client'
 
 import { createFileRoute } from '@tanstack/react-router'
-import { Search, Car, Landmark, Plane, Ship, Info } from 'lucide-react'
+import { Car, Landmark, Plane, Info } from 'lucide-react'
 import { useMemo, useState } from 'react'
 
 export const Route = createFileRoute('/prices')({
@@ -107,13 +107,13 @@ const TABS = [
 
 function PricesPage() {
   const [active, setActive] = useState<(typeof TABS)[number]['key']>('oneDay')
-  const [q, setQ] = useState('')
+  const [q] = useState('')
 
   const rows = useMemo(() => {
     return DATA.filter((d) => d.category === active).filter((d) =>
       d.description.toLowerCase().includes(q.toLowerCase()),
     )
-  }, [active, q])
+  }, [active])
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-300">

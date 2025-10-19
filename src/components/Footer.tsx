@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Globe, User, ExternalLink } from 'lucide-react'
+import { Mail, Phone, MapPin, Globe, User } from 'lucide-react'
 import logo from '@/logo.png'
 
 export default function Footer() {
