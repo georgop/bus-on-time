@@ -276,7 +276,7 @@ function ContactPage() {
 
           <iframe
             title="Bus On Time - Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.459920305364!2d23.793038476332013!3d38.00115307191857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a199b5db10901f%3A0x28e5465a7a6401ae!2sBus%20On%20Time!5e0!3m2!1sen!2sgr!4v1700000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.4078169078816!2d23.802124300000003!3d37.9909471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1983102dc9c49%3A0xb85917241b9b669f!2zzpJ1cyDOn24gzqRpbWUgLSBFzr3Ov865zrrOr86xz4POtyBtaW5pIGJ1cyDOvM61IM6_zrTOt86zz4wgLSBSZW50IE1pbmkgQnVzIHdpdGggZHJpdmVy!5e0!3m2!1sel!2sgr!4v1760846076350!5m2!1sel!2sgr"
             width="100%"
             height="300"
             allowFullScreen
