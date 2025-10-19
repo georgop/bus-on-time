@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Globe, User } from 'lucide-react'
 import logo from '@/logo.png'
+import { Link } from '@tanstack/react-router'
 
 export default function Footer() {
   return (
@@ -21,7 +22,7 @@ export default function Footer() {
             journey — always on schedule.
           </p>
           <br></br>
-          <a href="/terms">Terms and conditions</a>
+          <Link to={'/terms'}>Terms and conditions</Link>
         </div>
 
         {/* Column 2 — Links */}

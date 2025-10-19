@@ -1,6 +1,6 @@
 'use client'
 
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { Car, Landmark, Plane, Info } from 'lucide-react'
 import { useMemo, useState } from 'react'
 
@@ -207,14 +207,14 @@ function PricesPage() {
             Prices vary by group size, vehicle class, season, and itinerary
             time. Ask us for a final offer.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to={'/contact'}
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold transition"
           >
             Request a quote
-          </a>
+          </Link>
         </div>
-        <a href="/terms">Terms and conditions</a>
+        <Link to={'/terms'}>Terms and conditions</Link>
       </section>
     </div>
   )
