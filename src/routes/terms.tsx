@@ -9,7 +9,7 @@ function TermsPage() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-300">
       {/* Hero Section */}
       <section className="relative h-[30vh] flex items-center justify-center text-center">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/886743/pexels-photo-886743.jpeg')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('https://images.weserv.nl/?url=http://www.busontime.gr/images/terms.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent" />
         <h1 className="relative text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
           General Terms & Conditions

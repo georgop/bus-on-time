@@ -13,11 +13,11 @@ function VehiclesPage() {
       mainImage:
         'https://milimo.com.au/wp-content/uploads/2019/08/Milimo-Merc-high-res-1.jpg',
       gallery: [
-        'http://www.busontime.gr/images/oximata/photo-2.jpg',
-        'http://www.busontime.gr/images/oximata/photo-5.jpg',
-        'http://www.busontime.gr/images/oximata/photo-4.jpg',
-        'http://www.busontime.gr/images/oximata/photo-8.jpg',
-        'http://www.busontime.gr/images/oximata/photo-11.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-2.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-5.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-4.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-8.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-11.jpg',
       ],
       description: `
         Spacious and comfortable 20-seater Mercedes-Benz minibus ideal for group sightseeing, 
@@ -39,16 +39,16 @@ function VehiclesPage() {
       mainImage:
         'https://pro.autotriti.gr/jpg/PRO/1600/NEWS/Mercedes-Benz-Minibus-3.jpg',
       gallery: [
-        'http://www.busontime.gr/images/oximata/photo-1.jpg',
-        'http://www.busontime.gr/images/oximata/photo-3.jpg',
-        'http://www.busontime.gr/images/oximata/photo-6.jpg',
-        'http://www.busontime.gr/images/oximata/photo-7.jpg',
-        'http://www.busontime.gr/images/oximata/photo-9.jpg',
-        'http://www.busontime.gr/images/oximata/photo-10.jpg',
-        'http://www.busontime.gr/images/oximata/photo-12.jpg',
-        'http://www.busontime.gr/images/oximata/photo-13.jpg',
-        'http://www.busontime.gr/images/oximata/photo-14.jpg',
-        'http://www.busontime.gr/images/oximata/photo-15.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-1.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-3.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-6.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-7.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-9.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-10.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-12.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-13.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-14.jpg',
+        'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-15.jpg',
       ],
       description: `
         Premium 8-seater Mercedes-Benz minibus perfect for smaller groups and private transfers across Athens and Greece. 
