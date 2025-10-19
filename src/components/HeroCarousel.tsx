@@ -81,13 +81,13 @@ export default function HeroCarousel() {
       {/* Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute bottom-0 md:bottom-1/2 left-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-3 rounded-full text-white transition"
+        className="absolute bottom-0 sm:bottom-1/2 left-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-3 rounded-full text-white transition"
       >
         <ChevronLeft size={24} />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute bottom-0 md:bottom-1/2 right-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-3 rounded-full text-white transition"
+        className="absolute bottom-0 sm:bottom-1/2 right-6 -translate-y-1/2 bg-black/40 hover:bg-black/60 p-3 rounded-full text-white transition"
       >
         <ChevronRight size={24} />
       </button>
