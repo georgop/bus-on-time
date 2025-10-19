@@ -129,7 +129,7 @@ function ServicesPage() {
               desc: 'Acropolis, Plaka, Syntagma & more — flexible itineraries with photo stops.',
             },
             {
-              img: 'http://www.busontime.gr/images/arxiki1.jpg?1760834259125',
+              img: 'https://www.busontime.gr/images/arxiki1.jpg?1760834259125',
               title: 'Airport ↔ Hotel',
               desc: 'Meet & greet, flight tracking, no surprise fees.',
             },
