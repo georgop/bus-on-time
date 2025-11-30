@@ -1,6 +1,14 @@
 // components/ExcursionsSection.tsx
 import { Link } from '@tanstack/react-router'
 import { MapPin } from 'lucide-react'
+import delphi from '@/images/delphi.jpg'
+import epidavros from '@/images/epidavros.jpg'
+import mikines from '@/images/mikines.jpg'
+import olympia from '@/images/olympia.jpeg'
+import nafplio from '@/images/nafplio.jpg'
+import sounio from '@/images/sounio.webp'
+import meteora from '@/images/meteora.jpg'
+import loutraki from '@/images/loutraki.jpg'
 
 type Excursion = {
   title: string
@@ -13,50 +21,42 @@ const excursions: Excursion[] = [
   {
     title: 'Delphi',
     subtitle: 'Livadia · Arachova · Delphi',
-    image:
-      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqFPFUvdLTS2RmYudrtzh4pHiQ1gLjT48D_JS_2B1NQ7vNCYhqbOZv_NW_fC4E9bCILT_t4mE_CZLcov0ZYQweGjEELu79hC3nDvs6QsKovP0FJrNFqtyhJ1aqfRuBGIBZxzBoX=w1080-h624-n-k-no',
+    image: delphi,
   },
   {
     title: 'Ancient Epidavros',
     subtitle: 'Corinth Canal · Epidavros',
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/1280px-Epidauros-Theater-1.jpg',
+    image: epidavros,
   },
   {
     title: 'Ancient Mycenae',
     subtitle: 'Corinth Canal · Mycenae',
-    image:
-      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4noDhLeqHZ9M6RaNKukggCtwBD5u9Fo4dYJgPMX8Cb8SKSY040-kFTWCYWvIui8y6sAqzxm2EKkcVIAP-L6-CxtQTHUtjLcjYZpvBPPYfNw_Hss9eivqJ9ABTWQcHvrtM3I-01Nn0Q=s1360-w1360-h1020-rw',
+    image: mikines,
   },
   {
     title: 'Ancient Olympia',
     subtitle: 'Ancient Olympia',
-    image:
-      'https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQAUxI1JrWqd2Mf85b_DyIEk-Cu3hRb6wlS-3CpqaMyMuA5qv6UeZqp6bpKZLY6xdcsUfDABoDTg7aYn7iAHtZ2mDGKt9a1ASYCFShYVg',
+    image: olympia,
   },
   {
     title: 'Nafplio · Bourtzi',
     subtitle: 'Corinth Canal · Nafplion',
-    image:
-      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIRjqBnKvLleDzS-h96W-HrcGFVpZzvV1gc_Ft0_KdcXuklU-7WIB0DxMFBkePROUzIB77_aGFiq2nFp-PYGZorOUmgTJoFO2EB4IRGl5_Mb5zSqnUtSg_3To1xtijlDBvRaM1=w1080-h624-n-k-no',
+    image: nafplio,
   },
   {
     title: 'Cape Sounio',
     subtitle: 'Cape Sounio · Sunset',
-    image:
-      'https://www.visitgreece.gr/images/1750x680/jpg/files/militos_4_monuments-sounio_1750x680.webp',
+    image: sounio,
   },
   {
     title: 'Meteora · Monasteries',
     subtitle: 'Trikala · Kalambaka · Meteora',
-    image:
-      'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqoGwM9-8D0d0U_r6PQCotn0Kr-3mZaEnpuyPkHfnG9LgFWcimWe41AwhwWHZztlb1yLgeQ3cc_R5yi0JRlcu_YA8pi7sg7ZAekay-ZKAgwqNfz-7Kxnq3oc8v9POKHUXFFlarb=s1360-w1360-h1020-rw',
+    image: meteora,
   },
   {
     title: 'Loutraki',
     subtitle: 'Loutraki · Corinth Canal',
-    image:
-      'https://www.visitloutraki.com/sites/default/files/1city-of-loutraki.jpg',
+    image: loutraki,
   },
 ]
 
