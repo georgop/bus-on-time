@@ -1,5 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Users, Briefcase, Wifi, Snowflake, ShieldCheck } from 'lucide-react'
+import amaksi1 from '@/images/amaksi1.jpg'
+import amaksi2 from '@/images/amaksi2.webp'
 
 export const Route = createFileRoute('/vehicles')({
   component: VehiclesPage,
@@ -10,8 +12,7 @@ function VehiclesPage() {
     {
       id: 1,
       title: 'Mercedes-Benz Minibus (20 seats)',
-      mainImage:
-        'https://milimo.com.au/wp-content/uploads/2019/08/Milimo-Merc-high-res-1.jpg',
+      mainImage: amaksi1,
       gallery: [
         'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-2.jpg',
         'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-5.jpg',
@@ -36,8 +37,7 @@ function VehiclesPage() {
     {
       id: 2,
       title: 'Mercedes-Benz Minibus (8 seats)',
-      mainImage:
-        'https://pro.autotriti.gr/jpg/PRO/1600/NEWS/Mercedes-Benz-Minibus-3.jpg',
+      mainImage: amaksi2,
       gallery: [
         'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-1.jpg',
         'https://images.weserv.nl/?url=http://www.busontime.gr/images/oximata/photo-3.jpg',

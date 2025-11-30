@@ -9,12 +9,14 @@ import {
   ArrowRight,
 } from 'lucide-react'
 
+import heroImg from '@/images/hero.jpeg'
+import arxiki1 from '@/images/arxiki1.jpg'
+import epidavros from '@/images/epidavros.jpg'
+import people from '@/images/people.webp'
+
 export const Route = createFileRoute('/services')({
   component: ServicesPage,
 })
-
-const heroImg =
-  'https://images.pexels.com/photos/20872423/pexels-photo-20872423.jpeg'
 
 const services = [
   {
@@ -79,7 +81,7 @@ function ServicesPage() {
           {/* Left: photo */}
           <div className="relative rounded-xl overflow-hidden border border-slate-700 bg-slate-800/40">
             <img
-              src="https://geediting.com/wp-content/uploads/2024/10/people-who-need-to-follow-a-strict-itinerary-when-they-travel-usually-display-these-traits-says-psychology.png"
+              src={people}
               alt="Airport transfer"
               className="w-full h-full object-cover"
             />
@@ -123,18 +125,18 @@ function ServicesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
-              img: 'https://images.pexels.com/photos/20872423/pexels-photo-20872423.jpeg',
+              img: heroImg,
 
               title: 'City Highlights Tour',
               desc: 'Acropolis, Plaka, Syntagma & more — flexible itineraries with photo stops.',
             },
             {
-              img: 'https://images.weserv.nl/?url=http://www.busontime.gr/images/arxiki1.jpg?1760834259125',
+              img: arxiki1,
               title: 'Airport ↔ Hotel',
               desc: 'Meet & greet, flight tracking, no surprise fees.',
             },
             {
-              img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/1280px-Epidauros-Theater-1.jpg',
+              img: epidavros,
               title: 'Custom Day Trips',
               desc: 'From Cape Sounion to Delphi — tailor the schedule to your group.',
             },
